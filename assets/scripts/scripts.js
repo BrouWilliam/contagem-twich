@@ -32,8 +32,8 @@ function iniciarContador(m_init){
     minuto.innerHTML = (( m_init -1 ) > 9 ) ? ('' + ( m_init -1 )) : ('0' + ( m_init - 1));
     segundo.innerHTML = '00';
 
-    var m = m_init -1
-    var s = 59
+    var m = 1
+    var s = 30
 
     var contador = setInterval(function() {
         minuto.innerHTML = (m > 9) ? ('' + m) : ('0' + m)
